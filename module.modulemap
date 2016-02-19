@@ -1,0 +1,5 @@
+module CReadline [system] {
+  header "/usr/include/readline/readline.h"
+  link "readline"
+  export *
+}
